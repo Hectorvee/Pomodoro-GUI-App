@@ -107,7 +107,11 @@ window.config(padx=100, pady=100, bg=YELLOW)  # Set padding and background color
 
 # Create a canvas for displaying the tomato image and timer
 canvas = tkinter.Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
+<<<<<<< HEAD
 tomato_img = tkinter.PhotoImage(file="images/tomato.png")  # Load the tomato image
+=======
+tomato_img = tkinter.PhotoImage(file="tomato.png")  # Load the tomato image
+>>>>>>> 290c8130819e0eab020f1b0b29c5387bf80d5cbb
 canvas.create_image(100, 112, image=tomato_img)  # Add the image to the canvas
 time_text = canvas.create_text(100, 130, text="00:00", fill="White", font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)  # Position the canvas in the grid
