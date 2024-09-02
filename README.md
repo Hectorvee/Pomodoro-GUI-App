@@ -73,7 +73,7 @@ Here is a brief example of how the application looks and operates:
 
 ## Screenshot
 
-Here's a preview of the Weather App:
+Here's a preview of the Pomodoro App:
 
 ![Application Screenshot](images/img.png)
 
